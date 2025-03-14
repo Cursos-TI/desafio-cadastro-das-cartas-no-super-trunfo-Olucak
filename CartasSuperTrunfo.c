@@ -7,6 +7,59 @@
 //Teste larissa
 
 int main() {
+    char Estado[50],Estado2[50];
+    char codigo[4],codigo2[4];
+    char cidade[50],cidade2[50];
+    int populacao,populacao2;
+    float area,area2;
+    float pib,pib2;
+    int pontosturistico,pontosturistico2;
+
+
+    //CADASTRO DA PRIMEIRA CARTA
+    printf ("Bem vindo ao Super Trunfo. \n");
+    printf("Coloque os dados da primeira carta!\n");
+    printf("insira o estado: ");
+    scanf("%s",Estado);
+    printf("insira o codigo da carta: ");
+    scanf("%s", codigo);
+    printf("Insira o nome da cidade: ");
+    scanf("%s", cidade);
+    printf("Insira a população: ");
+    scanf("%d", &populacao);
+    printf("Insira a area: ");
+    scanf("%f", &area);
+    printf("Insira o PIB: ");
+    scanf("%f", &pib);
+    printf("Quantidade de pontos turísticos: ");
+    scanf("%d", &pontosturistico);
+
+    //Cadastro da segunda carta
+    printf ("Agora coloque os dados da segunda carta! \n");
+    printf("insira o estado: ");
+    scanf("%s",Estado2);
+    printf("insira o codigo da carta: ");
+    scanf("%s", codigo2);
+    printf("Insira o nome da cidade: ");
+    scanf("%s", cidade2);
+    printf("Insira a população: ");
+    scanf("%d", &populacao2);
+    printf("Insira a area: ");
+    scanf("%f", &area2);
+    printf("Insira o PIB: ");
+    scanf("%f", &pib2);
+    printf("Quantidade de pontos turísticos: ");
+    scanf("%d", &pontosturistico2);
+
+    //exibição das cartas
+
+    printf("%s",)
+
+    
+
+
+    
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
