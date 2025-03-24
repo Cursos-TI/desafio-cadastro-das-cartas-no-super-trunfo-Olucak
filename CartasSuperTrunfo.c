@@ -4,7 +4,7 @@
 // Declaração das variáveis
 
 int main() {
-    char Estado[50],Estado2[50];
+    char Estado,Estado2;
     char codigo[4],codigo2[4];
     char cidade[50],cidade2[50];
     int populacao,populacao2;
@@ -18,9 +18,9 @@ int main() {
     printf ("Bem vindo ao Jogo Super Trunfo. \n"); 
     printf("\n");
     printf("Coloque os dados da primeira carta!\n");
-    printf("Insira o Estado: ");
-    scanf("%s",Estado);
-    printf("Insira o codigo da carta: ");
+    printf("Insira o Estado, uma letra de 'A' a 'H': ");
+    scanf(" %c",&Estado);
+    printf("Insira o codigo da carta,a letra do estado seguida de um número de 01 a 04: ");
     scanf("%s", codigo);
     printf("Insira o nome da cidade: ");
     scanf("%s", cidade);
@@ -36,9 +36,9 @@ int main() {
 
     //Cadastro da segunda carta
     printf ("Agora coloque os dados da segunda carta! \n");
-    printf("Insira o Estado: ");
-    scanf("%s",Estado2);
-    printf("Insira o codigo da carta: ");
+    printf("Insira o Estado,Uma letra de 'A' a 'H': ");
+    scanf(" %c",&Estado2);
+    printf("Insira o codigo da carta,a letra do estado seguida de um número de 01 a 04: ");
     scanf("%s", codigo2);
     printf("Insira o nome da cidade: ");
     scanf("%s", cidade2);
@@ -57,7 +57,7 @@ int main() {
     printf("Exibição das cartas\n");
     printf("\n");
     printf("primeira carta\n");
-    printf("Estado: %s\n",Estado);
+    printf("Estado: %c\n",Estado);
     printf("código da carta: %s\n",codigo);
     printf("nome da cidade: %s\n",cidade);
     printf("população: %d\n",populacao);
@@ -74,7 +74,7 @@ int main() {
 
     //Exibição segunda carta
     printf("Segunda carta\n");
-    printf("Estado: %s\n",Estado2);
+    printf("Estado: %c\n",Estado2);
     printf("código da carta: %s\n",codigo2);
     printf("nome da cidade: %s\n",cidade2);
     printf("população: %d\n",populacao2);
